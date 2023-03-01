@@ -17,6 +17,7 @@ const userRouter = require('./routes/userRoutes');
 const reviewRoute = require('./routes/reviewRoute');
 const bookingRoute = require('./routes/bookingRoute');
 
+//express starts here
 const app = express();
 
 app.use(cors());
