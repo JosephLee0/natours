@@ -17,7 +17,7 @@ module.exports = class Email {
         auth: {
           user: 'apikey',
           pass:
-            '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'
+            'enter your password'
         }
       });
     }
