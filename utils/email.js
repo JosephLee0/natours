@@ -16,8 +16,7 @@ module.exports = class Email {
         service: 'SendGrid',
         auth: {
           user: 'apikey',
-          pass:
-            'enter your password'
+          pass:process.env.EMAIL_PASSWORD
         }
       });
     }
